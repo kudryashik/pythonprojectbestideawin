@@ -37,4 +37,9 @@ TARGET_TYPES = {
 TARGET_SIZES = [20, 30, 40, 50]  # Возможные размеры
 
 # Шрифт для надписей
-LABEL_FONT = pygame.font.SysFont('Arial', 24)
+def get_label_font():
+    if not pygame.font.get_init():
+        pygame.font.init()
+    return pygame.font.SysFont('Arial', 24)
+
+LABEL_FONT = get_label_font()

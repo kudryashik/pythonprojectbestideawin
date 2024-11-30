@@ -1,9 +1,9 @@
 import pygame
 import random
 
-from TargetClass import Target
-from StatsClass import Stats
-from constants import LABEL_FONT, WIDTH, TOP_BAR_HEIGHT, HEIGHT, TARGET_EVENT, TARGET_PADDING, LIVES, TARGET_INCREMENT
+from src.TargetClass import Target
+from src.StatsClass import Stats
+from src.constants import LABEL_FONT, WIDTH, TOP_BAR_HEIGHT, HEIGHT, TARGET_EVENT, TARGET_PADDING, LIVES, TARGET_INCREMENT
 
 def format_time(secs):
     minutes = int(secs // 60)

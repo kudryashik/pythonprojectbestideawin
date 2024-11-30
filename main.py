@@ -1,12 +1,10 @@
 import pygame
+
 from src.constants import WIDTH, HEIGHT, COLORS, BACKGROUND_COLORS, LABEL_FONT
-
 from src.GameClass import Game
-
 
 # Инициализация Pygame
 pygame.init()
-
 
 def main_menu():
     pygame.init()
